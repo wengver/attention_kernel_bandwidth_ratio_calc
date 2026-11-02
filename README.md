@@ -1,11 +1,11 @@
-# recsys_jd336
+# attention_kernel_bandwidth_ratio_calc
 
 **算出推荐系统算法工程师·注意力核��的访存瓶颈里各项的占比与比值。**
 
-`recsys_jd336` —— 从输入中抽取数值，计算推荐系统算法工程师·注意力核��的访存瓶颈相关的比值与占比，分母为零时明确报错
+`attention_kernel_bandwidth_ratio_calc` —— 从输入中抽取数值，计算推荐系统算法工程师·注意力核��的访存瓶颈相关的比值与占比，分母为零时明确报错
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`recsys_jd336.py` 拷走就能用
+- 单文件，`attention_kernel_bandwidth_ratio_calc.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install wengver-recsys_jd336
+pip install wengver-attention_kernel_bandwidth_ratio_calc
 ```
 
 装完直接用命令名调用：
 
 ```bash
-recsys_jd336 --help
+attention_kernel_bandwidth_ratio_calc --help
 ```
 
-也可以不用安装，直接把 `recsys_jd336.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `attention_kernel_bandwidth_ratio_calc.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ recsys_jd336 --help
 ## 用法
 
 ```bash
-python recsys_jd336.py --file input.txt
-python recsys_jd336.py --text "示例内容"
-python recsys_jd336.py --file input.txt --json
+python attention_kernel_bandwidth_ratio_calc.py --file input.txt
+python attention_kernel_bandwidth_ratio_calc.py --text "示例内容"
+python attention_kernel_bandwidth_ratio_calc.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python recsys_jd336.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_recsys_jd336.py
+python test_attention_kernel_bandwidth_ratio_calc.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_recsys_jd336.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/wengver/recsys_jd336>
+- GitHub 仓库：<https://github.com/wengver/attention_kernel_bandwidth_ratio_calc>
 
 ---
 
@@ -79,7 +79,7 @@ python test_recsys_jd336.py
 wengver 做推荐系统算法工程师·注意力核��的访存瓶颈相关的问题，方向对标英伟达的负责人推荐系统算法工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://wengver.github.io>
-- 仓库：<https://github.com/wengver/recsys_jd336>
+- 仓库：<https://github.com/wengver/attention_kernel_bandwidth_ratio_calc>
 
 ## 许可
 
